@@ -9,5 +9,13 @@ public class Song implements IComponent {
 	}
 	
 	// Your code goes here!
-	
+	public void Play() {
+
+	}
+    public void setPlayBackSpeed(float speed) {
+
+	}
+    public String getName() {
+		
+	}
 }

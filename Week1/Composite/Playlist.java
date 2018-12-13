@@ -8,6 +8,22 @@ public class Playlist implements IComponent {
 	}
 
   // Your code goes here!
+	public void Play() {
+		for (IComponent component : playlist) {
+			component.Play();
+		}
+	}
+	public void setPlayBackSpeed(float speed) {
 
+	}
+	public String getName() {
+			return playlistName;
+	}
+
+	public void add(IComponent component) {
+
+	}
+
+	public void remove(IComponent )
 
 }
